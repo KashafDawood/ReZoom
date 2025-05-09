@@ -462,6 +462,20 @@
   dependencies:
     "@radix-ui/react-compose-refs" "1.1.2"
 
+"@radix-ui/react-tabs@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-tabs/-/react-tabs-1.1.11.tgz#9dc002ea6f8ad6830bc20f349afdc57c6039009c"
+  integrity sha512-4FiKSVoXqPP/KfzlB7lwwqoFV6EPwkrrqGp9cUYXjwDYHhvpnqq79P+EPHKcdoTE7Rl8w/+6s9rTlsfXHES9GA==
+  dependencies:
+    "@radix-ui/primitive" "1.1.2"
+    "@radix-ui/react-context" "1.1.2"
+    "@radix-ui/react-direction" "1.1.1"
+    "@radix-ui/react-id" "1.1.1"
+    "@radix-ui/react-presence" "1.1.4"
+    "@radix-ui/react-primitive" "2.1.2"
+    "@radix-ui/react-roving-focus" "1.1.9"
+    "@radix-ui/react-use-controllable-state" "1.2.2"
+
 "@radix-ui/react-use-callback-ref@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.1.tgz#62a4dba8b3255fdc5cc7787faeac1c6e4cc58d40"
@@ -914,6 +928,15 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
+framer-motion@^12.10.3:
+  version "12.10.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.10.3.tgz#007a1329112a27e2f937053c96663a0b11efbd46"
+  integrity sha512-0uhqfcq4fmzCNV2lJAVAgrWHP4aegzELNd874AxyF3JeIpdUnOXRRJn2AYXnlrrV3rvgZOPBN9Tcjm1VnjZmPA==
+  dependencies:
+    motion-dom "^12.10.3"
+    motion-utils "^12.9.4"
+    tslib "^2.4.0"
+
 fsevents@~2.3.2:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -1066,6 +1089,18 @@ minimatch@^9.0.4:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.1.2.tgz#93a9626ce5e5e66bd4db86849e7515e92340a707"
   integrity sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==
+
+motion-dom@^12.10.3:
+  version "12.10.3"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.10.3.tgz#aece4e64095ec476809eb4b225233f0694321fcb"
+  integrity sha512-eSkiFTmHB6NlAMQISXPHrwJbqdxlaDXV5R+5oXu18tMgEIblLybLJc7Jq5L+byoE2uEG07rXvDdzHYzHd03ywQ==
+  dependencies:
+    motion-utils "^12.9.4"
+
+motion-utils@^12.9.4:
+  version "12.9.4"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.9.4.tgz#9d5a45a19971e20059911526d7af2217c5158fa2"
+  integrity sha512-BW3I65zeM76CMsfh3kHid9ansEJk9Qvl+K5cu4DVHKGsI52n76OJ4z2CUJUV+Mn3uEP9k1JJA3tClG0ggSrRcg==
 
 mz@^2.7.0:
   version "2.7.0"

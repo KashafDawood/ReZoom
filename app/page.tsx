@@ -1,16 +1,21 @@
-import Hero from "@/components/hero";
-import ConnectSupabaseSteps from "@/components/tutorial/connect-supabase-steps";
-import SignUpUserSteps from "@/components/tutorial/sign-up-user-steps";
-import { hasEnvVars } from "@/utils/supabase/check-env-vars";
+import Benefits from "@/components/custom/benefits";
+import CTA from "@/components/custom/cta";
+import FAQ from "@/components/custom/faq";
+import HeroSection from "@/components/custom/hero-section";
+import HowItWorks from "@/components/custom/how-it-works";
+import ResumeForm from "@/components/custom/resume-form";
 
-export default async function Home() {
+export default function Home() {
   return (
-    <>
-      <Hero />
-      <main className="flex-1 flex flex-col gap-6 px-4">
-        <h2 className="font-medium text-xl mb-4">Next steps</h2>
-        {hasEnvVars ? <SignUpUserSteps /> : <ConnectSupabaseSteps />}
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-1">
+        <HeroSection />
+        <HowItWorks />
+        <ResumeForm />
+        <Benefits />
+        <FAQ />
+        <CTA />
       </main>
-    </>
+    </div>
   );
 }
